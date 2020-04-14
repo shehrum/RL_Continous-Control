@@ -42,3 +42,17 @@ The task is episodic, and in order to solve the environment,  your agent must ge
 2. You can also use the pre-trained weights in `RL_Continous_Control/model_weights` and test the agent by running `test_agent.py`
 
 The `model.py` contains the Neural Network model for the Actor and Critic. The `ddpg_agent.py` file contains our DDPG Agent class with different methods such as soft_update(...), act(...), learn(...) etc. along with ReplayBuffer class.
+
+
+### Results
+The environment gets solved in 287 episodes, achieving an average score of 13.03
+
+![score](/results/scores.png)
+
+### Dependencies
+Use the `requirements.txt` to install the required dependencies. 
+
+pip install -r requirements.txt
+
+
+
